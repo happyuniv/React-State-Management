@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.register {
+  flex: 1;
+}
+
+.profile {
+  flex: 1;
+  position: relative;
+}
+
+.profile::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  border-top: 1px solid gray;
+}
+
+.profile-img {
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.profile-img img {
+  border-radius: 50%;
+}
