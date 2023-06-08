@@ -71,3 +71,30 @@ export type UserDataType = {
 //     </Provider>
 //   )
 // }
+/* ----------------- recoil ----------------- */
+// import { RecoilRoot } from 'recoil'
+// import Register from './recoil/Register.tsx'
+// import Profile from './recoil/Profile.tsx'
+
+// export default function App() {
+//   return (
+//     <RecoilRoot>
+//       <div className='App'>
+//         <Register />
+//         <Profile />
+//       </div>
+//     </RecoilRoot>
+//   )
+// }
+/* ----------------- zustand ----------------- */
+// import Register from './zustand/Register.tsx'
+// import Profile from './zustand/Profile.tsx'
+
+// export default function App() {
+//   return (
+//     <div className='App'>
+//       <Register />
+//       <Profile />
+//     </div>
+//   )
+// }
